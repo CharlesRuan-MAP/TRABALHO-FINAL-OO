@@ -118,12 +118,13 @@ Armazena os arquivos `.json` que simulam o banco de dados:
 
 ---
 
-## ▶Como Executar
+## ▶️ Como Executar
 
 1. Crie o ambiente virtual na pasta fora do seu projeto:
 ```bash
-git clone [url-do-repositorio]
-cd TRABALHO-FINAL-OO-main
+python -m venv venv
+source venv/bin/activate  # Linux/Mac
+venv\\Scripts\\activate     # Windows
 ```
 
 2. Entre dentro do seu projeto criado a partir do template e instale as dependências:
